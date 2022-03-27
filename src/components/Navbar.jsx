@@ -4,7 +4,7 @@ import styled from 'styled-components'
 
 const Container = styled.div`
   height: 60px;
-  background-color: #5ec7b5;
+  background-color: #E9C216
 `
 
 const Wrapper = styled.div`
@@ -31,7 +31,7 @@ const Navbar = () => {
         <Wrapper>
             <Center>
                 <Logo>
-                  Shawn Shaknitz
+                  Developer Portfolio For Shawn Shaknitz
                 </Logo>
             </Center>
         </Wrapper>
