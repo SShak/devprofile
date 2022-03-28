@@ -11,21 +11,29 @@ const Container = styled.div`
 
 const LWrapper = styled.div`
     padding: 50px;
+    height: 50%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 `
 
 const Left = styled.div`
-    flex: 1;
+  padding: 20px;
+
 `
 
 const LIntro = styled.h2`
     font-size: 30px;
     font-weight: 300;
     color: aliceblue;
+    display: flex;
 `
 
 const LName = styled.h1`
     font-size: 60px;
     color: aliceblue;
+    padding-bottom: 20px;
 `
 
 const LITitle = styled.div`
@@ -62,6 +70,13 @@ const LITWItem = styled.div`
     align-items: center;
 `
 
+const LIDesc = styled.p`
+    color: white;
+    display: flex;
+    font-size: 20px;
+    padding-top: 20px;
+`
+
 
 const Right = styled.div`
     flex: 1;
@@ -84,6 +99,11 @@ const Intro = () => {
                         <LITWItem>Video Game Enjoyer</LITWItem>
                     </LITWrapper>
                 </LITitle>
+                <LIDesc>
+                    I am a full stack developer that is passionate about his craft.  
+                    I have a thrist for knowledge, working with others, and continuously learning.  
+                    I don't just want to make software people need to use; I want to make software people WANT to use and LOVE to use.
+                </LIDesc>
             </Left>
         </LWrapper>
         <Right>Right</Right>
