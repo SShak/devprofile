@@ -1,39 +1,42 @@
 import styled from "styled-components"
 import { keyframes } from "styled-components"
+import code from "../img/code.jpg"
 
 
 const Container = styled.div`
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #163DE9;
+    height: 100vh;
+    
 `
 
 const LWrapper = styled.div`
     padding: 50px;
     height: 50%;
-    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 `
 
 const Left = styled.div`
-  padding: 20px;
-
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #163DE9;
+    
 `
 
 const LIntro = styled.h2`
     font-size: 30px;
     font-weight: 300;
     color: aliceblue;
-    display: flex;
+    
 `
 
 const LName = styled.h1`
     font-size: 60px;
     color: aliceblue;
-    padding-bottom: 20px;
+    
 `
 
 const LITitle = styled.div`
@@ -77,17 +80,30 @@ const LIDesc = styled.p`
     padding-top: 20px;
 `
 
+const RWrapper = styled.div`
+     flex: 1;
+    position: relative;
+    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+    background-color: #E9C216;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+`
 
 const Right = styled.div`
+    
     flex: 1;
-    padding: 20px;
+    position: relative;
+    
 `
 
 const Intro = () => {
   return (
     <Container>
-        <LWrapper>
-            <Left>
+        <Left>
+            <LWrapper>
                 <LIntro>Hello. My name is</LIntro>
                 <LName>Shawn Shaknitz</LName>
                 <LITitle>
@@ -104,9 +120,14 @@ const Intro = () => {
                     I have a thrist for knowledge, working with others, and continuously learning.  
                     I don't just want to make software people need to use; I want to make software people WANT to use and LOVE to use.
                 </LIDesc>
-            </Left>
-        </LWrapper>
-        <Right>Right</Right>
+            </LWrapper>
+        </Left>
+            
+        <Right>
+            <RWrapper>
+
+            </RWrapper> 
+        </Right>
     </Container>
   )
 }
