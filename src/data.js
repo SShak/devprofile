@@ -19,7 +19,7 @@ export const sliderItems = [
     {
         id: 3,
         title: "Admin Panel",
-        desc: "I wanted to make a modular Admin Panel design that could be converted to many different projects. This is the panel for the shop owner to take care of the many tasks need from one application without ever having to touch the website itself",
+        desc: "I wanted to make a modular Admin Panel design that could be converted to many different projects. This is the panel for the shop owner to take care of the many tasks need from one application without ever having to touch the website itself.",
         link: "https://github.com/SShak/admin",
         img: "publicimg/Overseer.png"
     },
