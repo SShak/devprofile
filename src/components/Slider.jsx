@@ -65,11 +65,12 @@ const Button = styled.button`
 const ImgContainer = styled.div`
     height: 100%;
     flex: 1;
+    justify-content: center;
 `
 
 const Image = styled.img`
-    height: 80%;
-    padding-left: 250px;
+    height: 60%;
+    
 `
 
 const Title = styled.h1`
