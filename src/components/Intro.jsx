@@ -1,6 +1,7 @@
 import styled from "styled-components"
 import { keyframes } from "styled-components"
-import code from "../img/code.jpg"
+//this is a placeholder img
+import coding from "../img/coding.png"
 
 
 const Container = styled.div`
@@ -79,10 +80,18 @@ const LIDesc = styled.p`
     font-size: 20px;
     padding-top: 20px;
 `
+const Right = styled.div`
+    flex: 1;
+    position: relative;  
+`
 
-const RWrapper = styled.div`
-     flex: 1;
-    position: relative;
+const Image = styled.img`
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+`
+const RBackground = styled.div`
     clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
     background-color: #E9C216;
     width: 100%;
@@ -92,12 +101,7 @@ const RWrapper = styled.div`
     right: 0;
 `
 
-const Right = styled.div`
-    
-    flex: 1;
-    position: relative;
-    
-`
+
 
 const Intro = () => {
   return (
@@ -124,9 +128,10 @@ const Intro = () => {
         </Left>
             
         <Right>
-            <RWrapper>
-
-            </RWrapper> 
+            <RBackground></RBackground> 
+            
+            <Image src={coding} />
+            
         </Right>
     </Container>
   )

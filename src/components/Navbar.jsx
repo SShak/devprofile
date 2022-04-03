@@ -4,7 +4,8 @@ import styled from 'styled-components'
 
 const Container = styled.div`
   height: 60px;
-  background-color: #E9C216
+  background-color: #E9C216;
+  
 `
 
 const Wrapper = styled.div`
@@ -21,7 +22,7 @@ const Center = styled.div`
 `
 const Logo = styled.h1`
   font-weight: bold;
-  color: white;
+  color: black;
 `
 
 

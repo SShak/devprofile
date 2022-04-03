@@ -1,4 +1,4 @@
-import { ArrowLeftOutlined, ArrowRightOutlined } from '@material-ui/icons'
+import { ArrowLeft, ArrowLeftOutlined, ArrowRight, ArrowRightOutlined } from '@material-ui/icons'
 import { useState } from 'react';
 import styled from 'styled-components';
 import { sliderItems } from '../data';
@@ -15,7 +15,7 @@ const Container = styled.div`
 const Arrow = styled.div`
     width: 50px;
     height: 50px;
-    background-color: whitesmoke;
+    background-color: #6b6bce60;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -27,8 +27,9 @@ const Arrow = styled.div`
     right: ${props=> props.direction === "right" && "10px"};
     margin: auto;
     cursor: pointer;
-    opacity: 0.5;
+    opacity: 1;
     z-index: 2;
+    
 `
 
 const Wrapper = styled.div`
@@ -78,7 +79,7 @@ export const Slider = () => {
   return (
     <Container>
         <Arrow direction="left" onClick={()=>handleClick("left")}>
-            <ArrowLeftOutlined />
+            <ArrowLeft/>
         </Arrow>
         <Wrapper slideIndex={slideIndex}>
             {sliderItems.map((item) =>(
@@ -91,7 +92,7 @@ export const Slider = () => {
             ))}
         </Wrapper>
         <Arrow direction="right" onClick={()=>handleClick("right")}>
-            <ArrowRightOutlined />
+            <ArrowRight/>
         </Arrow>
     </Container>
   )
