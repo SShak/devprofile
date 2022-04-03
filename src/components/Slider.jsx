@@ -65,7 +65,6 @@ const Button = styled.button`
 const ImgContainer = styled.div`
     height: 100%;
     flex: 1;
-    //margin-left: 250px;
 `
 
 const Image = styled.img`
@@ -110,8 +109,7 @@ export const Slider = () => {
                     <Link to={item.link} >
                     <Button >Check out the code
                     </Button>
-                    </Link>
-                    
+                    </Link>  
                 </InfoContainer>
                 <ImgContainer  ImgContainer>
                     <Image src={item.img} />
