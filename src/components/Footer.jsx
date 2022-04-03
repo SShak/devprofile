@@ -129,6 +129,7 @@ const Footer = () => {
               <CLInfo>
                 <ContactItemIcon>
                   <LinkedIn style={{marginRight:"10px"}}/>
+                  Shawn Shaknitz
                 </ContactItemIcon>
               </CLInfo>
               <CLInfo>
