@@ -58,8 +58,9 @@ const InfoContainer = styled.div`
 const Button = styled.button`
     padding: 10px;
     font-size: 20px;
-    background-color: transparent;
+    background-color: blue;
     cursor: pointer;
+    color: aliceblue
 `
 
 const ImgContainer = styled.div`
@@ -69,6 +70,7 @@ const ImgContainer = styled.div`
 `
 
 const Image = styled.img`
+padding-top: 150px;
     height: 60%;
     
 `
