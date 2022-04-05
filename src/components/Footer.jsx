@@ -55,6 +55,7 @@ const ContactItemIcon = styled.div`
 
 const RDesc = styled.p`
   font-weight: 200;
+  font-size: 30px;
 `
 
 const Form = styled.form`
