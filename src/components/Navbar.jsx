@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import {mobile} from "../responsive"
 
 
 const Container = styled.div`
@@ -23,6 +24,8 @@ const Center = styled.div`
 const Logo = styled.h1`
   font-weight: bold;
   color: black;
+
+  ${mobile({ fontSize: '20px' })}
 `
 
 

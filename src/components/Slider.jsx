@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import { sliderItems } from '../data';
+import {mobile} from "../responsive"
 
 
 const Container = styled.div`
@@ -11,6 +12,8 @@ const Container = styled.div`
     display: flex;
     position: relative;
     overflow: hidden;
+
+    
 `
 
 const Arrow = styled.div`
@@ -46,6 +49,8 @@ const Slide = styled.div`
     display: flex;
     align-items: center;
     background-color: #${props=>props.bg};
+
+    ${mobile({ flexDirection: 'column' })}
 `
 
 
@@ -70,13 +75,18 @@ const ImgContainer = styled.div`
 `
 
 const Image = styled.img`
-padding-top: 150px;
+    padding-top: 150px;
     height: 60%;
+
+    ${mobile({ height: '20%' })}
+    ${mobile({ paddingTop: '20px' })}
     
 `
 
 const Title = styled.h1`
     font-size: 70px;
+
+    ${mobile({ fontSize: '20px' })}
 `
 
 const Description = styled.p`
@@ -84,6 +94,8 @@ const Description = styled.p`
     font-size: 20px;
     font-weight: 500;
     letter-spacing: 3px;
+
+    ${mobile({ fontSize: '10px' })}
 `
 
 export const Slider = () => {

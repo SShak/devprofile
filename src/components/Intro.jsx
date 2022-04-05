@@ -2,11 +2,14 @@ import styled from "styled-components"
 import { keyframes } from "styled-components"
 //this is a placeholder img
 import coding from "../img/coding.png"
+import {mobile} from "../responsive"
 
 
 const Container = styled.div`
     display: flex;
     height: 100vh;
+
+    ${mobile({ flexDirection: 'column' })}
     
 `
 
@@ -16,6 +19,8 @@ const LWrapper = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    ${mobile({ padding: '10px' })}
 `
 
 const Left = styled.div`
@@ -31,6 +36,8 @@ const LIntro = styled.h2`
     font-size: 30px;
     font-weight: 300;
     color: aliceblue;
+
+   
     
 `
 
@@ -79,10 +86,15 @@ const LIDesc = styled.p`
     display: flex;
     font-size: 20px;
     padding-top: 20px;
+
+    ${mobile({ fontSize: '15px' })}
+
 `
 const Right = styled.div`
     flex: 1;
     position: relative;  
+
+    ${mobile({ padding: '10px' })}
 `
 
 const Image = styled.img`

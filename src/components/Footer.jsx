@@ -3,6 +3,7 @@ import { useRef } from "react"
 import styled from "styled-components"
 import emailjs from '@emailjs/browser';
 import { useState } from "react";
+import {mobile} from "../responsive"
 
 const Container = styled.div`
   height: 100vh;
@@ -23,6 +24,8 @@ const CWrapper = styled.div`
 
 const CLeft = styled.div`
   flex: 1;
+
+  ${mobile({ display: 'none' })}
 `
 
 const CRight = styled.div`
