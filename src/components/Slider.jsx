@@ -1,6 +1,5 @@
 import { ArrowLeft, ArrowRight } from '@material-ui/icons'
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import { sliderItems } from '../data';
 import {mobile} from "../responsive";
