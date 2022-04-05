@@ -121,7 +121,7 @@ const Intro = () => {
                 </LITitle>
                 <LIDesc>
                     I am a full stack developer that is passionate about his craft.  
-                    I have a thrist for knowledge, working with others, and continuously learning.  
+                    I have a thirst for knowledge, working with others, and continuously learning.  
                     I don't just want to make software people need to use; I want to make software people WANT to use and LOVE to use.
                 </LIDesc>
             </LWrapper>
