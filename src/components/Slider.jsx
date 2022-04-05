@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import { sliderItems } from '../data';
-import {mobile} from "../responsive"
+import {mobile} from "../responsive";
 
 
 const Container = styled.div`
@@ -121,10 +121,10 @@ export const Slider = () => {
                 <InfoContainer>
                     <Title>{item.title}</Title>
                     <Description>{item.desc}</Description>
-                    <Link to={item.link} >
+                    <a href={item.link} >
                     <Button >Check out the code
                     </Button>
-                    </Link>  
+                    </a>  
                 </InfoContainer>
                 <ImgContainer  ImgContainer>
                     <Image src={item.img} />
