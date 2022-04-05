@@ -5,7 +5,7 @@ export const sliderItems = [
     {
         id: 1,
         title: "Astral Store",
-        desc: "This project consists of a frontend design for an ecomerce store. The idea comes from a artist friend that was getting request to buy his work from Instagram messages. The design was based on his over motif and aesthetic",
+        desc: "This project consists of a frontend design for an ecomerce store. The idea comes from a artist friend that was getting request to buy his work from Instagram messages. The design was based on his overall motif and aesthetic",
         link: "https://github.com/SShak/astralstore",
         img: "publicimg/Astral Store.png"
     },
