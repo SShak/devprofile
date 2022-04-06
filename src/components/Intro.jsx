@@ -1,7 +1,7 @@
 import styled from "styled-components"
 import { keyframes } from "styled-components"
 //this is a placeholder img
-import coding from "../img/coding.png"
+import fish from "../img/fish.png"
 import {mobile} from "../responsive"
 
 
@@ -28,7 +28,7 @@ const Left = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #163DE9;
+    background: linear-gradient(75deg, #2d29ff, #ff50e8);
     
 `
 
@@ -76,7 +76,7 @@ const LITWItem = styled.div`
     height: 50px;
     font-size: 30px;
     font-weight: bold;
-    color: #E9C216;
+    color: #ff50e8;
     display: flex;
     align-items: center;
 `
@@ -88,6 +88,7 @@ const LIDesc = styled.p`
     padding-top: 20px;
 
     ${mobile({ fontSize: '15px' })}
+    ${mobile({ paddingBottom: '20px' })}
 
 `
 const Right = styled.div`
@@ -98,14 +99,15 @@ const Right = styled.div`
 `
 
 const Image = styled.img`
-    width: 100%;
+    width: 80%;
     height: 100%;
     object-fit: cover;
     position: absolute;
+    object-position: center;
 `
 const RBackground = styled.div`
     clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
-    background-color: #E9C216;
+    background: linear-gradient(45deg, #ff50e8, #2d29ff);
     width: 100%;
     height: 100%;
     position: absolute;
@@ -142,7 +144,7 @@ const Intro = () => {
         <Right>
             <RBackground></RBackground> 
             
-            <Image src={coding} />
+            <Image src={fish} />
             
         </Right>
     </Container>
