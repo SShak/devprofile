@@ -120,7 +120,7 @@ export const Slider = () => {
                 <InfoContainer>
                     <Title>{item.title}</Title>
                     <Description>{item.desc}</Description>
-                    <a href={item.link} >
+                    <a style={{display: "table-cell"}} href={item.link} target="_blank" rel="noreferrer">
                     <Button >Check out the code
                     </Button>
                     </a>  
