@@ -30,5 +30,12 @@ export const sliderItems = [
         link: "https://github.com/SShak/admin",
         img: "publicimg/Overseer.png"
     },
+    {
+        id: 5,
+        title: "Wordle",
+        desc: "A recreation of the propular game.",
+        link: "https://github.com/SShak/wordle",
+        img: "publicimg/wordle.png"
+    },
     
 ]
