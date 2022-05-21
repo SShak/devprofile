@@ -100,6 +100,7 @@ const Description = styled.p`
 export const Slider = () => {
 
     const [slideIndex, setSlideIndex] = useState(0);
+    
     const handleClick = (direction) => {
         
       if(direction==="left"){
@@ -107,8 +108,11 @@ export const Slider = () => {
       }  else {
           setSlideIndex(slideIndex < 4 ? slideIndex +1 : 0 )
       }
+
     };
-    
+
+
+
   return (
     <Container>
         <Arrow direction="left" onClick={()=>handleClick("left")}>
@@ -123,7 +127,8 @@ export const Slider = () => {
                     <a style={{display: "table-cell"}} href={item.link} target="_blank" rel="noreferrer">
                     <Button >Check out the code
                     </Button>
-                    </a>  
+                    </a>
+
                 </InfoContainer>
                 <ImgContainer  ImgContainer>
                     <Image src={item.img} />

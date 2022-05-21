@@ -3,6 +3,7 @@ import Footer from '../components/Footer'
 import Intro from '../components/Intro'
 import Navbar from '../components/Navbar'
 import Slider from '../components/Slider'
+import Wordle from '../components/Wordle'
 
 export const Home = () => {
   return (
@@ -10,6 +11,7 @@ export const Home = () => {
         <Navbar/>
         <Intro/>
         <Slider/>
+        <Wordle />
         <Footer/>
     </div>
   )
