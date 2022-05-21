@@ -20,6 +20,7 @@ const Cbg = styled.div`
 const CWrapper = styled.div`
   padding: 50px;
   display: flex;
+  
 `
 
 const CLeft = styled.div`
@@ -34,6 +35,7 @@ const CRight = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  
 `
 
 const CLTitle = styled.h1`

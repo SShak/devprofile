@@ -21,6 +21,7 @@ const LWrapper = styled.div`
     justify-content: space-between;
 
     ${mobile({ padding: '10px' })}
+    ${mobile({ marginBottom: '30px' })}
 `
 
 const Left = styled.div`
