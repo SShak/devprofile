@@ -5,7 +5,7 @@ import {mobile} from "../responsive"
 
 const Container = styled.div`
   height: 60px;
-  background: linear-gradient(25deg, #ff50e8, #2d29ff);
+ // background: linear-gradient(25deg, #ff50e8, #2d29ff);
   
 `
 

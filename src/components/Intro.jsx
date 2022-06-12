@@ -1,7 +1,7 @@
 import styled from "styled-components"
 import { keyframes } from "styled-components"
 //this is a placeholder img
-import fish from "../img/fish.png"
+import coding from "../img/coding.png"
 import {mobile} from "../responsive"
 
 
@@ -29,7 +29,7 @@ const Left = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(75deg, #2d29ff, #ff50e8);
+    background: coral;
     
 `
 
@@ -77,7 +77,7 @@ const LITWItem = styled.div`
     height: 50px;
     font-size: 30px;
     font-weight: bold;
-    color: #ff50e8;
+    color: #19d4d4;
     display: flex;
     align-items: center;
 `
@@ -108,7 +108,7 @@ const Image = styled.img`
 `
 const RBackground = styled.div`
     clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
-    background: linear-gradient(45deg, #ff50e8, #2d29ff);
+    background: #19d4d4;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -145,7 +145,7 @@ const Intro = () => {
         <Right>
             <RBackground></RBackground> 
             
-            <Image src={fish} />
+            <Image src={coding} />
             
         </Right>
     </Container>

@@ -5,7 +5,7 @@ import styled from 'styled-components'
 
 const Container = styled.div`
   height: 60px;
-  background: linear-gradient(25deg, #ff50e8, #2d29ff);
+ // background: linear-gradient(25deg, #ff50e8, #2d29ff);
 `
 const Wrapper = styled.div`
   padding: 10px, 20px;
@@ -22,9 +22,9 @@ const Center = styled.div`
 const Button = styled.button`
     padding: 10px;
     font-size: 20px;
-    background-color: #ff50e8;
+   // background-color: #ff50e8;
     cursor: pointer;
-    color: #2d29ff;  
+    //color: #2d29ff;  
 `
 
 

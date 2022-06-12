@@ -14,7 +14,7 @@ const Cbg = styled.div`
   width: 20px;
   height: 100vh;
   position: absolute;
-  background: linear-gradient(110deg, #2d29ff, #ff50e8);
+ // background: linear-gradient(110deg, #2d29ff, #ff50e8);
 `
 
 const CWrapper = styled.div`
@@ -87,7 +87,7 @@ const Textarea = styled.textarea`
 const Buttton = styled.button`
   border: none;
   padding: 15px;
-  background-color: #ff50e8;
+ // background-color: #ff50e8;
   font-weight: 500;
   cursor: pointer;
   color: #2d29ff;
