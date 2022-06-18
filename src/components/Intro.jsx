@@ -1,7 +1,5 @@
 import styled from "styled-components"
 import { keyframes } from "styled-components"
-//this is a placeholder img
-import coding from "../img/coding.png"
 import me2 from "../img/me2.png"
 import {mobile} from "../responsive"
 
