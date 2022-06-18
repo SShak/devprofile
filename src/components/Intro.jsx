@@ -130,7 +130,7 @@ const Intro = () => {
                         <LITWItem>UI/UX Designer</LITWItem>
                         <LITWItem>Full Stack Engineer</LITWItem>
                         <LITWItem>Musician</LITWItem>
-                        <LITWItem>Video Game Enjoyer</LITWItem>
+                        <LITWItem>Dark Souls Destroyer</LITWItem>
                     </LITWrapper>
                 </LITitle>
                 <LIDesc>
