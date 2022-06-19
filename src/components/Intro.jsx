@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import { keyframes } from "styled-components"
-import me2 from "../img/me2.png"
+import Me3 from "../img/Me3.png"
 import {mobile} from "../responsive"
 
 
@@ -144,7 +144,7 @@ const Intro = () => {
         <Right>
             <RBackground></RBackground> 
             
-            <Image src={me2} />
+            <Image src={Me3} />
             
         </Right>
     </Container>
